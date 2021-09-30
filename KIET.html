@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIET</title>
+    <link rel="stylesheet" href="./KIET.css" />
+</head>
+<body >
+    <div class="app">
+        <div class="student">
+            <div class="student_header">
+                <img src="./kietbanner.jpg" alt="logo" />
+                <h3>Registration for Admission Against Vacant/Lapse Seats After UPSEE Counselling</h3>
+            </div> 
+             
+            <div class="student_details">
+                <div class="student_detail">
+                    <div>
+                        <label>Student Name :</label>
+                        <input type="text" placeholder="Student Name"/> 
+                    </div>
+                    <div>  
+                        <label>Student's Email :</label>
+                        <input type="email" placeholder="Student Email" />
+                    </div>
+                </div>
+
+                <div class="student_detail"> 
+                     <div> 
+                        <label>Father's Name :</label>
+                        <input type="text" placeholder="Father's name" />
+                    </div>
+                    <div>
+                        <label>Mother's Name :</label>
+                        <input type="text" placeholder="Mother's name" />
+                    </div>  
+                </div>
+
+                <div class="student_detail">
+                    <div>
+                        <label>Parent's Email :</label>
+                        <input type="email" placeholder="Email" />
+                    </div>
+                    <div> 
+                        <label>Father's Mobile:</label>
+                        <input type="number" placeholder="Mobile number" />
+                    </div>    
+                </div>
+
+                <div class="student_detail">
+                    <div>
+                        <label>Father's Occupation:</label>
+                        <input type="text" placeholder="Father occupation" />
+                    </div>
+                    <div>   
+                        <label>Student's Mobile:</label>
+                        <input type="number" placeholder="Mobile Number" />
+                    </div>
+                </div>
+
+                <div class="student_detailRadio student_detail">
+                    <div >
+                        <label>Category:</label>
+                        <input type="radio" name="Category" value="GEN" />
+                        <p class="radio-toobarLabel">GEN</p>
+
+                        <input type="radio" name="Category" value="OBC" />
+                        <p class="radio-toobarLabel">OBC</p>
+                        
+                        <input type="radio" name="Category" value="SC" />
+                        <p class="radio-toobarLabel">SC</p>
+                        
+                        <input type="radio" name="Category" value="ST" />
+                        <p class="radio-toobarLabel">ST</p>
+                    </div>
+                    <div>
+                        <label >DOB:</label>
+                        <input type="date" />
+                    </div>
+                    <div>    
+                        <label >Gender:</label>
+                        <input type="radio" name="Gender" value="Male" class="radio_gender"/>
+                        <p class="radio-toobarLabel label_gender">Male</p>
+                        <input type="radio" name="Gender" value="Female" class="radio_gender" />
+                        <p class="radio-toobarLabel label_gender">Female</p>
+                    </div>
+                </div>
+
+                <div class="student_detailAddress student_detail">
+                    <div >
+                        <label>Address :</label>
+                        <input type="text" placeholder="Address" class="student_detailAddress_full"/>
+                    </div>
+                    <div class="student_detailAddress_half ">
+                        <input type="text" placeholder="City" />
+                        <input type="text" placeholder="District"/>
+                        <input type="number" placeholder="Pin Code" />
+                    </div>
+                </div>
+                 
+                <button class="student_button" >Next</button>
+            </div>
+        </div>
+    </div>        
+    </body>
+</html>
